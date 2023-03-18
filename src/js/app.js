@@ -38,7 +38,7 @@ function render(variables = {}) {
   }</h1>
           <h2>${variables.role ? variables.role : "Web Developer"}</h2>
           <h3>${variables.city ? variables.city : "Miami"},${
-    variables.country ? variables.country : "Miami"
+    variables.country ? variables.country : "USA"
   }</h3>
           <ul class="${
             variables.socialMediaPosition == "position-right"
